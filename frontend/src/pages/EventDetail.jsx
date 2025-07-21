@@ -1,10 +1,8 @@
 import { Link, useParams } from "react-router-dom";
 import { useCart } from "../context/CartContext";
 
-const events = [
-  { id: 1, name: "Live Concert: The Weeknd", date: "Aug 15, 2025", location: "London Arena", price: 50 },
-  { id: 2, name: "DJ Night: Calvin Harris", date: "Aug 20, 2025", location: "Fabric Club", price: 40 },
-];
+const response = await fetch("http://127.0.0.1:8000/events");
+const data = await response.json();
 
 export default function EventDetail() {
   const { id } = useParams();
