@@ -51,7 +51,7 @@ _Replace these images with actual screenshots from your app_
 
 ```bash
 # Clone repo
-git clone https://github.com/your-username/ticket-checkout-flow.git
+git clone https://github.com/Daniel-Thole/ticket-checkout-flow.git
 cd ticket-checkout-flow
 
 # Install dependencies
